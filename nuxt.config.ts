@@ -3,5 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     buildAssetsDir: '_'
-  }
+  },
+  modules: [
+    'nuxt-simple-sitemap'
+  ],
 })
